@@ -1,0 +1,13 @@
+Usually in classification problems, where the data is usually imbalanced we use precision and recall as metrics.
+
+Precision : Out of all predicted positives, how many are actually positive
+
+Precision = TP/(FP+TP)
+
+Recall : Out of all actual positives, how many are actually positives
+
+Recall = TP/(TP+FN)
+
+Where, TP = True Positives FP = False Positives TN = True Negatives FN = False Negatives
+
+Precision Recall Tradeoff Precision and Recall are inversely proportional. Whenever precision increases recall decreases, and when recall increases then precision decreases.
