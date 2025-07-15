@@ -1,0 +1,7 @@
+Probability of getting more than 4 in a dice = 2/6=1/3
+
+For getting exactly in 4th time, we need to calculate: P(k th value) = (1-p)^(k-1)*p
+
+Where, p = probability of getting 4 k = 4 (As it is 4th time)
+
+So, P(k th value) = (1-1/3)^(4-1)x1/3 = (2/3)^(3) x 1/3 = 0.0988 = 9.88%
